@@ -1,0 +1,26 @@
+{
+  "name": "potato-engineer",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "gh-pages": "npm run predeploy && npm run deploy"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/gardlt/potato",
+  "license": "MIT",
+  "homepage": "https://gardlt.github.io/potato/",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
