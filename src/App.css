@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: white;
 }
 
 .App-logo {
@@ -22,4 +23,14 @@
   font-size: large;
   text-align: left;
   padding-left: 5%;
+}
+
+a {padding: 1%;}
+a:visited {color: #222;}
+a:link {color: #222;}
+body {
+    background-image: url("./background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
